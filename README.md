@@ -10,6 +10,6 @@
 `make run_checkout`
 
 ## Tech
-* Go 1.18
+* Go 1.22
 * go-aws-sdk
 * uuid
