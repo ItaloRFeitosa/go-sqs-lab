@@ -4,7 +4,7 @@ import (
 	"context"
 	"log"
 
-	"github.com/italorfeitosa/go-sqs-lab/services/_common/aws"
+	"github.com/italorfeitosa/go-sqs-lab/pkg/aws"
 	"github.com/italorfeitosa/go-sqs-lab/services/checkout/command"
 	"github.com/italorfeitosa/go-sqs-lab/services/checkout/config"
 	"github.com/italorfeitosa/go-sqs-lab/services/checkout/env"

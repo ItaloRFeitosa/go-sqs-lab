@@ -4,9 +4,9 @@ import (
 	"context"
 	"log"
 
-	"github.com/italorfeitosa/go-sqs-lab/services/_common/aws"
-	"github.com/italorfeitosa/go-sqs-lab/services/_common/messaging"
-	"github.com/italorfeitosa/go-sqs-lab/services/_common/messaging/sqs"
+	"github.com/italorfeitosa/go-sqs-lab/pkg/aws"
+	"github.com/italorfeitosa/go-sqs-lab/pkg/messaging"
+	"github.com/italorfeitosa/go-sqs-lab/pkg/messaging/sqs"
 	"github.com/italorfeitosa/go-sqs-lab/services/checkout/config"
 	"github.com/italorfeitosa/go-sqs-lab/services/checkout/env"
 	"github.com/italorfeitosa/go-sqs-lab/services/checkout/event"

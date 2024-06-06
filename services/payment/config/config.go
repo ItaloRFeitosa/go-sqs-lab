@@ -1,9 +1,9 @@
 package config
 
 import (
-	"github.com/italorfeitosa/go-sqs-lab/services/_common/aws"
+	"github.com/italorfeitosa/go-sqs-lab/pkg/aws"
 
-	"github.com/italorfeitosa/go-sqs-lab/services/_common/messaging/sqs"
+	"github.com/italorfeitosa/go-sqs-lab/pkg/messaging/sqs"
 )
 
 var SQS sqs.Config

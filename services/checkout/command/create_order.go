@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/italorfeitosa/go-sqs-lab/services/_common/messaging"
-	"github.com/italorfeitosa/go-sqs-lab/services/_common/uuid"
+	"github.com/italorfeitosa/go-sqs-lab/pkg/messaging"
+	"github.com/italorfeitosa/go-sqs-lab/pkg/uuid"
 	"github.com/italorfeitosa/go-sqs-lab/services/checkout/event"
 	"github.com/italorfeitosa/go-sqs-lab/services/checkout/producer"
 )

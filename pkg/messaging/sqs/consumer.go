@@ -8,8 +8,8 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/sqs"
-	"github.com/italorfeitosa/go-sqs-lab/services/_common/messaging"
-	"github.com/italorfeitosa/go-sqs-lab/services/_common/semaphore"
+	"github.com/italorfeitosa/go-sqs-lab/pkg/messaging"
+	"github.com/italorfeitosa/go-sqs-lab/pkg/semaphore"
 )
 
 type consumer[T any] struct {

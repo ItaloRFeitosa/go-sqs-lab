@@ -6,7 +6,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/sqs"
 
-	"github.com/italorfeitosa/go-sqs-lab/services/_common/messaging"
+	"github.com/italorfeitosa/go-sqs-lab/pkg/messaging"
 )
 
 type producer struct {

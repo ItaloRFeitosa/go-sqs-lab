@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/italorfeitosa/go-sqs-lab/services/_common/uuid"
+	"github.com/italorfeitosa/go-sqs-lab/pkg/uuid"
 )
 
 type Producer interface {
